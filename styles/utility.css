@@ -38,12 +38,13 @@
   .desktop-only {
     display: initial;
   }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-column: 1fr;
+  }
 }
 
-.even-columns {
-  display: grid;
-  gap: 1rem;
-}
 
 .flex {
   display: flex;
